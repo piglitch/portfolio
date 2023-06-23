@@ -16,7 +16,7 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    Cognizant,
     tesla,
     shopify,
     carrent,
@@ -53,10 +53,7 @@ import {
       title: "Backend Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+
   ];
   
   const technologies = [
@@ -116,57 +113,32 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Data warehouse Intern",
+      company_name: "Cognizant technology Solutions",
+      icon: Cognizant,
+      iconBg: "black",
+      date: "Dec 2021 - April 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I honed my technical skills through training in SQL and Git Bash while working as an Intern at Cognizant, prior to my full-time role.",
+        "These experiences have equipped me with the ability to effectively analyze and troubleshoot complex issues and deliver quality results, making me a valuable asset to any team.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Programmer Analyst",
+      company_name: "Cognizant Technology Solutions",
+      icon: Cognizant,
+      iconBg: "black",
+      date: "May 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "As a Programmer Analyst Trainee at Cognizant, I played a key role in delivering data integration reports and effectively managing client tickets.", 
+        "I worked closely with a team of skilled developers, fostering a collaborative environment to address data-related challenges and ensure seamless operations.", 
+        "By leveraging my technical expertise and strong problem-solving skills, I consistently delivered high-quality reports that met client requirements.", 
+        "Additionally, I actively participated in troubleshooting sessions, contributing valuable insights to resolve data-related issues and improve overall system performance.", 
+        "Through effective communication and teamwork, I facilitated efficient collaboration with cross-functional teams, resulting in successful project outcomes.", 
+        "I am confident in my ability to contribute to any organization by leveraging my collaborative mindset and technical acumen to overcome data-related challenges and drive impactful results.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+
   ];
   
   const testimonials = [
@@ -216,7 +188,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/piglitch",
     },
     {
       name: "Job IT",
