@@ -1,7 +1,6 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -15,10 +14,7 @@ import {
     git,
     figma,
     docker,
-    meta,
     Cognizant,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
