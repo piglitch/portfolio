@@ -166,7 +166,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "twitterCloned",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -175,16 +175,16 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase/firestore",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "materialUI",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/piglitch",
+      source_code_link: "https://github.com/piglitch/twitter_clone",
     },
     {
       name: "Job IT",
