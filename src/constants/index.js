@@ -12,8 +12,6 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     Cognizant,
     carrent,
     threejs,
@@ -95,14 +93,7 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
   ];
   
   const experiences = [
