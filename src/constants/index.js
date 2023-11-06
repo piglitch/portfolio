@@ -13,8 +13,9 @@ import {
     mongodb,
     git,
     Cognizant,
-    carrent,
     threejs,
+    carrent,
+    rickandmortz,
   } from "../assets";
   
   export const navLinks = [
@@ -34,14 +35,9 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
-    },
-    
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
+    }
 
   ];
   
@@ -110,9 +106,9 @@ import {
       company_name: "Cognizant Technology Solutions",
       icon: Cognizant,
       iconBg: "black",
-      date: "May 2022 - Present",
+      date: "May 2022 - May 2023",
       points: [
-        "As a Programmer Analyst Trainee at Cognizant, I played a key role in delivering data integration reports and effectively managing client tickets.", 
+        "As a Programmer Analyst at Cognizant, I played a key role in delivering data integration reports and effectively managing client tickets.", 
         "I worked closely with a team of skilled developers, fostering a collaborative environment to address data-related challenges and ensure seamless operations.", 
         "By leveraging my technical expertise and strong problem-solving skills, I consistently delivered high-quality reports that met client requirements.", 
         "Additionally, I actively participated in troubleshooting sessions, contributing valuable insights to resolve data-related issues and improve overall system performance.", 
@@ -123,32 +119,7 @@ import {
 
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+  
   
   const projects = [
     {
@@ -172,8 +143,38 @@ import {
       image: carrent,
       source_code_link: "https://github.com/piglitch/twitter_clone",
       online_app_link: "https://twitter-clone-ca46c.web.app/",
+    },    
+    {
+      name: "Beautiful Rick and Morties and where to find them",
+      description:
+        `A dynamic web platform using HTML, CSS, and JavaScript (ES6) to provide detailed information about characters from the animated series "Rick and Morty". The application integrates with the Rick and Morty API for fetching character data and dynamically updates the webpage based on user input. Utilized Webpack for efficient bundling and ESLint for code quality.`,
+      tags: [
+        {
+          name: "JavaScript/ES6",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Webpack",
+          color: "green-text-gradient",
+        },
+        {
+          name: "EsLint",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "API integration",
+          color: "green-text-gradient",
+        }
+      ],
+      image: rickandmortz,
+      source_code_link: "https://github.com/piglitch/Beautiful-Rick-and-Morties-and-where-to-find-them",
+      online_app_link: "https://rickandmortz.vercel.app/",
     },
+    {
+      
+    }
+
     
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
