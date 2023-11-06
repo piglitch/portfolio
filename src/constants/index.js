@@ -168,7 +168,7 @@ import {
         }
       ],
       image: rickandmortz,
-      source_code_link: "https://github.com/piglitch/Beautiful-Rick-and-Morties-and-where-to-find-them",
+      source_code_link: "https://github.com/piglitch/Rick-and-Mortz",
       online_app_link: "https://rickandmortz.vercel.app/",
     },
     {
