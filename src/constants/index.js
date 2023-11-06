@@ -196,9 +196,7 @@ import {
       image: toDoList,
       source_code_link: "https://github.com/piglitch/toDo",
       online_app_link: "https://to-do-lovat-two.vercel.app/",
-    }
-
-    
+    }    
   ];
   
   export { services, technologies, experiences, projects };
