@@ -27,7 +27,8 @@ import Cognizant from "./company/Logo_Cognizant.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
-import rickandmortz from './rickandmortz.png'
+import rickandmortz from './rickandmortz.png';
+import toDoList from './toDoList.png';
 
 export {
   logo,
@@ -56,5 +57,6 @@ export {
   Cognizant,
   tesla,
   carrent,
-  rickandmortz
+  rickandmortz,
+  toDoList
 };

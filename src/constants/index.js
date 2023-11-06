@@ -16,6 +16,7 @@ import {
     threejs,
     carrent,
     rickandmortz,
+    toDoList,
   } from "../assets";
   
   export const navLinks = [
@@ -171,7 +172,30 @@ import {
       online_app_link: "https://rickandmortz.vercel.app/",
     },
     {
-      
+      name: "ToDo list",
+      description:
+        `This to-do list app is built using HTML, CSS, and JavaScript, and it leverages ES6 modules and the factory pattern for code organization. Users can create and manage projects with associated tasks. The app utilizes localStorage for data storage, allowing features like adding tasks, editing descriptions, and marking tasks as complete. Projects and tasks can be easily deleted. The UI includes buttons and icons for intuitive interaction.`,
+      tags: [
+        {
+          name: "JavaScript/ES6",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Webpack",
+          color: "green-text-gradient",
+        },
+        {
+          name: "localstorage",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CRUD",
+          color: "green-text-gradient",
+        }
+      ],
+      image: toDoList,
+      source_code_link: "https://github.com/piglitch/toDo",
+      online_app_link: "https://to-do-lovat-two.vercel.app/",
     }
 
     
