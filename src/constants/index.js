@@ -17,6 +17,7 @@ import {
     carrent,
     rickandmortz,
     toDoList,
+    cvBuilder,
   } from "../assets";
   
   export const navLinks = [
@@ -123,6 +124,36 @@ import {
   
   
   const projects = [
+    {
+      name: "Cv Easy",
+      description:
+        `Cv Easy stands out with its dynamic customization through React components, accelerated development powered by Vite, and a sleek and professional interface crafted with Material UI. Users benefit from real-time previews for seamless editing, while data persistence ensures the convenience of saving and retrieving progress. The deployment on Vercel guarantees high availability, scalability, and low-latency access, completing a comprehensive and efficient technology stack.`,
+      tags: [
+        {
+          name: "React JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CRUD",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cvBuilder,
+      source_code_link: "https://github.com/piglitch/cv-builder",
+      online_app_link: "https://cv-builder-bice.vercel.app/",
+    },    
     {
       name: "twitterCloned",
       description:

@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import rickandmortz from './rickandmortz.png';
 import toDoList from './toDoList.png';
+import cvBuilder from './cvBuilder.png';
 
 export {
   logo,
@@ -58,5 +59,6 @@ export {
   tesla,
   carrent,
   rickandmortz,
-  toDoList
+  toDoList,
+  cvBuilder
 };
