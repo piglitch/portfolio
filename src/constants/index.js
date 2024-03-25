@@ -248,7 +248,7 @@ import {
     {
       name: "twitterCloned",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A clone of twitter. To build this application I have used React on the frontend and for the backend I have used firebase. For styling, material ui and Tailwind have been used for ease of usage.",
       tags: [
         {
           name: "react",
