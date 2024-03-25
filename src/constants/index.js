@@ -192,7 +192,7 @@ import {
     },
     {
       name: "Picturesque",
-      description: `This sleek app, powered by Express.js and MongoDB, offers intuitive CRUD functionalities for pictures and albums. Express.js handles backend routing and middleware, while MongoDB ensures efficient data storage. The frontend is elegantly designed for a smooth user experience. With Snapshot Savvy, simplify your picture management effortlessly.`,
+      description: `This sleek app, powered by Express.js and MongoDB, offers intuitive CRUD functionalities for pictures and albums. Express.js handles backend routing and middleware, while MongoDB ensures efficient data storage. The frontend is elegantly designed for a smooth user experience.`,
       tags: [
         {
           name: 'Express',
