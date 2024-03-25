@@ -20,6 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import expressjs from "./tech/expressjs.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -30,6 +31,10 @@ import carrent from "./carrent.png";
 import rickandmortz from './rickandmortz.png';
 import toDoList from './toDoList.png';
 import cvBuilder from './cvBuilder.png';
+import webNymph from './webnymph.png';
+import rc from './rc.png';
+import picturesque from './picturesque.png';
+
 
 export {
   logo,
@@ -47,6 +52,7 @@ export {
   html,
   javascript,
   mongodb,
+  expressjs,
   nodejs,
   reactjs,
   redux,
@@ -60,5 +66,8 @@ export {
   carrent,
   rickandmortz,
   toDoList,
-  cvBuilder
+  cvBuilder,
+  webNymph,
+  rc,
+  picturesque,
 };

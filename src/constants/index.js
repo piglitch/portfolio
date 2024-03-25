@@ -9,6 +9,7 @@ import {
     reactjs,
     redux,
     tailwind,
+    expressjs,
     nodejs,
     mongodb,
     git,
@@ -18,6 +19,9 @@ import {
     rickandmortz,
     toDoList,
     cvBuilder,
+    webNymph,
+    rc,
+    picturesque,
   } from "../assets";
   
   export const navLinks = [
@@ -43,8 +47,11 @@ import {
     {
       title: "Frontend Developer",
       icon: web,
+    },
+    {
+      title: "Backend Developer",
+      icon: backend,
     }
-
   ];
   
   const technologies = [
@@ -75,6 +82,10 @@ import {
     {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "Express JS",
+      icon: expressjs,
     },
     {
       name: "Node JS",
@@ -128,6 +139,112 @@ import {
   
   
   const projects = [
+    {
+      name: "Web nymph",
+      description: `WebNymph is a dynamic shopping cart application that brings together the latest web technologies to provide a delightful user experience.
+      Note: WebNymph is a Frontend Project and is not meant to be used commercially; the items shown in the website are just a bunch of dummy data fetched from Fake Store API.`,
+      tags: [
+        {
+          name: 'React JS',
+          color: 'pink-text-gradient',
+        },
+        {
+          name: 'Tailwind',
+          color: 'green-text-gradient'
+        },
+        {
+          name: 'SASS',
+          color: 'blue-text-gradient'
+        },
+        {
+          name: 'Material UI',
+          color: 'green-text-gradient'
+        },
+      ],
+      image: webNymph,
+      source_code_link: "https://github.com/piglitch/shopping-cart",
+      online_app_link: "https://web-nymph.vercel.app/",
+    },
+    {
+      name: "Readerscult",
+      description: `Readers' Cult is a comprehensive library app designed for efficient book management. Leveraging Express.js and MongoDB, it offers CRUD (Create, Read, Update, Delete) functionalities for books, authors, and genres. The backend employs Express.js for routing and middleware management, while MongoDB facilitates data storage. The frontend is elegantly rendered using templating engines, ensuring a seamless user experience.`,
+      tags: [
+        {
+          name: 'Express',
+          color: 'green-text-gradient',
+        },
+        {
+          name: 'Bootstrap',
+          color: 'pink-text-gradient'
+        },
+        {
+          name: 'MongoDB',
+          color: 'green-text-gradient'
+        },
+        {
+          name: 'Pug',
+          color: 'blue-text-gradient'
+        },
+      ],
+      image: rc,
+      source_code_link: "https://github.com/piglitch/readerscult",
+      online_app_link: "https://readerscult.up.railway.app/",
+    },
+    {
+      name: "Picturesque",
+      description: `This sleek app, powered by Express.js and MongoDB, offers intuitive CRUD functionalities for pictures and albums. Express.js handles backend routing and middleware, while MongoDB ensures efficient data storage. The frontend is elegantly designed for a smooth user experience. With Snapshot Savvy, simplify your picture management effortlessly.`,
+      tags: [
+        {
+          name: 'Express',
+          color: 'green-text-gradient',
+        },
+        {
+          name: 'Bootstrap',
+          color: 'pink-text-gradient'
+        },
+        {
+          name: 'MongoDB',
+          color: 'green-text-gradient'
+        },
+        {
+          name: 'Pug',
+          color: 'blue-text-gradient'
+        },
+      ],
+      image: picturesque,
+      source_code_link: "https://github.com/piglitch/inventory-app",
+      online_app_link: "https://picturesque.up.railway.app/catalog",
+    },
+    {
+      name: "Cv Easy",
+      description:
+        `Cv Easy stands out with its dynamic customization through React components, accelerated development powered by Vite, and a sleek and professional interface crafted with Material UI. Users benefit from real-time previews for seamless editing, while data persistence ensures the convenience of saving and retrieving progress. The deployment on Vercel guarantees high availability, scalability, and low-latency access, completing a comprehensive and efficient technology stack.`,
+      tags: [
+        {
+          name: "React JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CRUD",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cvBuilder,
+      source_code_link: "https://github.com/piglitch/cv-builder",
+      online_app_link: "https://cv-builder-bice.vercel.app/",
+    },   
     {
       name: "Cv Easy",
       description:
