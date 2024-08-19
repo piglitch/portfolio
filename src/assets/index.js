@@ -21,6 +21,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import expressjs from "./tech/expressjs.png";
+import next from './tech/nextjslogo.png';
+import appscript from './tech/appscript.png';
+import postgres from './tech/postgres.png';
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -34,7 +37,7 @@ import cvBuilder from './cvBuilder.png';
 import webNymph from './webnymph.png';
 import rc from './rc.png';
 import picturesque from './picturesque.png';
-import bloggy from './bloggy.png'
+import bloggy from './bloggy.png';
 
 export {
   logo,
@@ -70,5 +73,8 @@ export {
   webNymph,
   rc,
   picturesque,
-  bloggy
+  bloggy,
+  next,
+  appscript,
+  postgres
 };

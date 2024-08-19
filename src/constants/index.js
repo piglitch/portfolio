@@ -21,7 +21,10 @@ import {
     webNymph,
     rc,
     picturesque,
-    bloggy
+    bloggy,
+    next,
+    appscript,
+    postgres
   } from "../assets";
   
   export const navLinks = [
@@ -103,7 +106,18 @@ import {
       name: "git",
       icon: git,
     },
-    
+    {
+      name: "Next",
+      icon: next,
+    },
+    // {
+    //   name: "Apps Script",
+    //   icon: appscript,
+    // },
+    {
+      name: "PostgreSQL",
+      icon: postgres,
+    }
   ];
   
   const experiences = [
