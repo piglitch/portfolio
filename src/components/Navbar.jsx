@@ -51,8 +51,21 @@ const Navbar = () => {
           <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2
           min-w-[140px] z-10 rounded-xl`}>
             <ul className='list-none flex justify-end items-start  flex-col gap-4'>
-
-        </ul>
+            {navLinks.map((link) => (
+            <li 
+              key={link.id}
+              className={`${
+                active === link.title
+                ? "text-white"
+                : "text-secondary"
+              } hover:text-white text-[18px] 
+              font-medium cursor-pointer`}
+              onClick={() => setActive(link.title)}
+            >
+              { link.id === "github" ? <a href="https://github.com/piglitch" target='_blank'>{link.title}</a> : <a href={`#${link.id}`}>{link.title}</a> }
+            </li>
+          ))}
+            </ul>
           </div>
         </div>
       </div>
