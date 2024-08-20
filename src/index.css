@@ -13,6 +13,10 @@
   color-scheme: dark;
 }
 
+nav{
+  animation: breathing 30s ease-in-out infinite;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
@@ -124,6 +128,42 @@
   text-indent: -9999em;
   animation: mulShdSpin 1.1s infinite ease;
   transform: translateZ(0);
+}
+
+@keyframes breathing {
+  0% {
+    box-shadow: 0 0 80px rgba(255, 238, 0, 1); /* Yellow */
+  }
+  10% {
+    box-shadow: 0 0 80px rgba(255, 33, 33, 1); /* Red */
+  }
+  20% {
+    box-shadow: 0 0 80px rgb(0, 255, 21); /* Green */
+  }
+  30% {
+    box-shadow: 0 0 80px rgba(33, 150, 243, 1); /* Blue */
+  }
+  40% {
+    box-shadow: 0 0 80px rgb(255, 255, 255); /* Orange */
+  }
+  50% {
+    box-shadow: 0 0 80px rgba(156, 39, 176, 1); /* Purple */
+  }
+  60% {
+    box-shadow: 0 0 80px rgba(0, 188, 212, 1); /* Cyan */
+  }
+  70% {
+    box-shadow: 0 0 80px rgba(76, 175, 80, 1); /* Light Green */
+  }
+  80% {
+    box-shadow: 0 0 80px rgb(59, 232, 255); /* Bright Yellow */
+  }
+  90% {
+    box-shadow: 0 0 80px rgba(233, 30, 99, 1); /* Pink */
+  }
+  100% {
+    box-shadow: 0 0 80px rgba(255, 238, 0, 1); /* Yellow (Same as 0%) */
+  }
 }
 
 @keyframes mulShdSpin {

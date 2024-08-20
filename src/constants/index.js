@@ -1,5 +1,4 @@
 import {
-    mobile,
     backend,
     web,
     javascript,
@@ -22,6 +21,10 @@ import {
     webNymph,
     rc,
     picturesque,
+    bloggy,
+    next,
+    appscript,
+    postgres
   } from "../assets";
   
   export const navLinks = [
@@ -41,6 +44,9 @@ import {
       id: "github",
       title: "Github"
     },
+    {
+      id: "linkedin"
+    }
   ];
   
   const services = [
@@ -103,7 +109,18 @@ import {
       name: "git",
       icon: git,
     },
-    
+    {
+      name: "Next",
+      icon: next,
+    },
+    // {
+    //   name: "Apps Script",
+    //   icon: appscript,
+    // },
+    {
+      name: "PostgreSQL",
+      icon: postgres,
+    }
   ];
   
   const experiences = [
@@ -125,12 +142,12 @@ import {
       iconBg: "black",
       date: "May 2022 - May 2023",
       points: [
-        "As a Programmer Analyst at Cognizant, I played a key role in delivering data integration reports and effectively managing client tickets.", 
-        "I worked closely with a team of skilled developers, fostering a collaborative environment to address data-related challenges and ensure seamless operations.", 
-        "By leveraging my technical expertise and strong problem-solving skills, I consistently delivered high-quality reports that met client requirements.", 
-        "Additionally, I actively participated in troubleshooting sessions, contributing valuable insights to resolve data-related issues and improve overall system performance.", 
-        "Through effective communication and teamwork, I facilitated efficient collaboration with cross-functional teams, resulting in successful project outcomes.", 
-        "I am confident in my ability to contribute to any organization by leveraging my collaborative mindset and technical acumen to overcome data-related challenges and drive impactful results.",
+        "Transitioned data management from Google Sheets to MySQL, greatly enhancing data handling speed and security. Implemented dynamic Apps Script triggers to automatically add new data to Elasticsearch, resulting in a 15% reduction in report generation time.", 
+        "Created a cron job using Node JS to process and migrate all data from Google Sheets to MySQL, enhancing data integrity and consistency.", 
+        "I was responsible for developing aesthetically pleasing and user-friendly login pages using Vue.js, enhancing the user experience and interface design. I implemented robust password validation mechanisms to ensure secure and responsive user authentication.", 
+        "Developed responsive and aesthetically pleasing user interfaces using Bootstrap and Tailwind CSS, ensuring a consistent design across devices. Implemented complex UI components and layouts, leveraging the utility-first approach of Tailwind CSS and customised Bootstrap themes to align with branding requirements.", 
+        "Managed version control using Git, ensuring smooth collaboration across a team of developers by implementing branching strategies like Git Flow. Resolved merge conflicts and performed code reviews, improving code quality and reducing bugs.", 
+        "I gained consultancy experience while talking to clients across the world.",
       ],
     },
 
@@ -139,6 +156,33 @@ import {
   
   
   const projects = [
+    {
+      name: "Bloggy",
+      description: `This blog app is built with cutting-edge technologies to ensure a smooth and secure experience. T3 Stack (TypeScript, Next.js, Drizzle): This powerful combination provides a robust foundation for the application, delivering optimal speed and efficiency.
+      NextAuth.js: Securely manage user logins and protect user data with this robust authentication library. PostgreSQL with Drizzle ORM: Leverage the power of PostgreSQL for data storage and utilize Drizzle ORM for seamless interaction with the database.
+      Tailwind CSS: Create a visually appealing and responsive user interface that adapts flawlessly to any device. Material UI (MUI): Maintain a consistent and user-friendly experience with a comprehensive set of beautiful and functional icons.`,
+      tags: [
+        {
+          name: 'Next JS',
+          color: 'pink-text-gradient',
+        },
+        {
+          name: 'Tailwind',
+          color: 'green-text-gradient'
+        },
+        {
+          name: 'PostgreSQL',
+          color: 'blue-text-gradient'
+        },
+        {
+          name: 'Drizzle ORM',
+          color: 'text-yellow-300'
+        },
+      ],
+      image: bloggy,
+      source_code_link: "https://github.com/piglitch/t3stacknextjs",
+      online_app_link: "https://t3stacknextjs.vercel.app/",
+    },
     {
       name: "Web nymph",
       description: `WebNymph is a dynamic shopping cart application that brings together the latest web technologies to provide a delightful user experience.
@@ -150,7 +194,7 @@ import {
         },
         {
           name: 'Tailwind',
-          color: 'green-text-gradient'
+          color: 'text-red-500'
         },
         {
           name: 'SASS',
