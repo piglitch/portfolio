@@ -44,6 +44,9 @@ import {
       id: "github",
       title: "Github"
     },
+    {
+      id: "linkedin"
+    }
   ];
   
   const services = [
