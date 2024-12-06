@@ -2,7 +2,8 @@ import { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
-
+import { div } from "three/examples/jsm/nodes/Nodes.js";
+import { dedsec0, dedsec4 } from '../../assets';
 
 
 const Computers = ({ isMobbile }) => {
@@ -56,23 +57,11 @@ const ComputersCanvas = () =>{
   }, [] )
 
   return(
-    <Canvas 
-    frameloop="demand"
-    shadows
-    camera={{position: [20, 3, 5], fov: 25}}
-    gl={{preserveDrawingBuffer: true}}
-    >
-      <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls 
-          enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
-          /> 
-        <Computers isMobbile={isMobbile}/>
-
-      </Suspense>
-      <Preload all/>
-    </Canvas>
+    <div className="relative h-screen">
+      <img className="absolute lg:w-[550px] top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2" src={dedsec0} alt="" />
+      <img className="absolute lg:w-[1050px] top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2" src={dedsec4} alt="" />
+      <img className="absolute lg:w-[1050px] top-2/3 left-2/3 transform -translate-x-1/2 -translate-y-1/2" src={dedsec4} alt="" />
+    </div>
   )
 }
 

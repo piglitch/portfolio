@@ -18,9 +18,6 @@ module.exports = {
       screens: {
         xs: "450px",
       },
-      backgroundImage: {
-        "hero-pattern": "url('/src/assets/josh-nuttall-xl2piFfdzyA-unsplash.jpg')",
-      },
     },
   },
   plugins: [],

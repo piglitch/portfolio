@@ -7,23 +7,25 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-import expressjs from "./tech/expressjs.png";
-import next from './tech/nextjslogo.png';
-import appscript from './tech/appscript.png';
-import postgres from './tech/postgres.png';
+import css from "./tech/css3.svg";
+import git from "./tech/git.svg";
+import html from "./tech/html5.svg";
+import javascript from "./tech/javascript.svg";
+import mongodb from "./tech/mongodb.svg";
+import nodejs from "./tech/nodedotjs.svg";
+import reactjs from "./tech/react.svg";
+import redux from "./tech/redux.svg";
+import tailwind from "./tech/tailwindcss.svg";
+import typescript from "./tech/typescript.svg";
+import expressjs from "./tech/express.svg";
+import next from './tech/nextdotjs.svg';
+import postgres from './tech/postgresql.svg';
+import aws from './tech/amazonwebservices.svg';
+import drizzle from './tech/drizzle.svg';
+import go from './tech/go.svg';
+import prisma from './tech/prisma.svg';
+import python from './tech/python.svg';
+import redis from './tech/redis.svg';
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -39,6 +41,9 @@ import rc from './rc.png';
 import picturesque from './picturesque.png';
 import bloggy from './bloggy.png';
 
+import dedsec0 from './dedsec5.jpg'
+import dedsec4 from './anonymous-dedsec-unscreen.gif'
+
 export {
   logo,
   backend,
@@ -49,11 +54,15 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
+  go,
+  aws,
+  drizzle,
+  prisma,
+  python,
+  redis,
   mongodb,
   expressjs,
   nodejs,
@@ -61,7 +70,6 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
   meta,
   shopify,
   Cognizant,
@@ -75,6 +83,7 @@ export {
   picturesque,
   bloggy,
   next,
-  appscript,
-  postgres
+  postgres,
+  dedsec0,
+  dedsec4,
 };
