@@ -58,9 +58,7 @@ const ComputersCanvas = () =>{
 
   return(
     <div className="relative h-screen">
-      <img className="absolute lg:w-[550px] top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2" src={dedsec0} alt="" />
-      <img className="absolute lg:w-[1050px] top-2/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2" src={dedsec4} alt="" />
-      <img className="absolute lg:w-[1050px] top-2/3 left-2/3 transform -translate-x-1/2 -translate-y-1/2" src={dedsec4} alt="" />
+      <img className="absolute lg:w-[750px] top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2" src={dedsec4} alt="" />
     </div>
   )
 }
