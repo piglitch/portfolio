@@ -35,10 +35,7 @@ const ExperienceCard = ({experience}) =>
         className='text-white-100 text-[14px] plt-1 tracking-wider'
       >
         {point}
-
       </li>
-
-
     ))}</ul>
        
   </VerticalTimelineElement>

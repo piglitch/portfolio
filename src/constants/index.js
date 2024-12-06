@@ -13,7 +13,6 @@ import {
     mongodb,
     git,
     Cognizant,
-    threejs,
     carrent,
     rickandmortz,
     toDoList,
@@ -23,8 +22,13 @@ import {
     picturesque,
     bloggy,
     next,
-    appscript,
-    postgres
+    postgres,
+    go,
+    aws,
+    drizzle,
+    prisma,
+    redis,
+    python
   } from "../assets";
   
   export const navLinks = [
@@ -64,30 +68,46 @@ import {
     {
       name: "HTML 5",
       icon: html,
+
     },
     {
       name: "CSS 3",
       icon: css,
+
     },
     {
       name: "JavaScript",
       icon: javascript,
+
     },
     {
       name: "TypeScript",
       icon: typescript,
     },
     {
+      name: "Go",
+      icon: go,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
       name: "React JS",
-      icon: reactjs,
+      icon: reactjs,    
+    },
+    {
+      name: "Next",
+      icon: next,
     },
     {
       name: "Redux Toolkit",
-      icon: redux,
+      icon: redux,    
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
+
     },
     {
       name: "Express JS",
@@ -102,25 +122,29 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "PostgreSQL",
+      icon: postgres,
+    },
+    {
+      name: "Redis",
+      icon: redis,
+    },
+    {
+      name: "Drizzle",
+      icon: drizzle,
+    },
+    {
+      name: "Prisma",
+      icon: prisma,
+    },
+    {
+      name: "AWS",
+      icon: aws,
     },
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "Next",
-      icon: next,
-    },
-    // {
-    //   name: "Apps Script",
-    //   icon: appscript,
-    // },
-    {
-      name: "PostgreSQL",
-      icon: postgres,
-    }
   ];
   
   const experiences = [
@@ -142,14 +166,23 @@ import {
       iconBg: "black",
       date: "May 2022 - May 2023",
       points: [
-        "Transitioned data management from Google Sheets to MySQL, greatly enhancing data handling speed and security. Implemented dynamic Apps Script triggers to automatically add new data to Elasticsearch, resulting in a 15% reduction in report generation time.", 
-        "Created a cron job using Node JS to process and migrate all data from Google Sheets to MySQL, enhancing data integrity and consistency.", 
-        "I was responsible for developing aesthetically pleasing and user-friendly login pages using Vue.js, enhancing the user experience and interface design. I implemented robust password validation mechanisms to ensure secure and responsive user authentication.", 
-        "Developed responsive and aesthetically pleasing user interfaces using Bootstrap and Tailwind CSS, ensuring a consistent design across devices. Implemented complex UI components and layouts, leveraging the utility-first approach of Tailwind CSS and customised Bootstrap themes to align with branding requirements.", 
-        "Managed version control using Git, ensuring smooth collaboration across a team of developers by implementing branching strategies like Git Flow. Resolved merge conflicts and performed code reviews, improving code quality and reducing bugs.", 
-        "I gained consultancy experience while talking to clients across the world.",
+        "Created reports and dashboards using Power BI, contributing to business intelligence solutions and insights for management.", 
+        "Collaborated with cross-functional teams to understand technical requirements and resolve issues efficiently, enhancing problem-solving and communication skills."
       ],
     },
+    {
+      title: "Web Developer",
+      company_name: "Credence",
+      icon: Cognizant,
+      iconBg: "black",
+      date: "Jun 2024 - Aug 2024",
+      points: [
+        "Built a cron job using Node.js to migrate data from Google Sheets to MySQL, reducing manual effort by 90% and enhancing data integrity.", 
+        "Designed and developed responsive user interfaces with Vue.js and Tailwind CSS, improving cross-device consistency and performance.",
+        "Managed Git version control and collaborated with a team of developers, resolving merge conflicts and conducting code reviews to improve code quality and reduce bugs."
+      ],
+    },
+
 
   ];
   
