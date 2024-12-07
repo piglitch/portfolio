@@ -37,9 +37,8 @@ import rickandmortz from './rickandmortz.png';
 import toDoList from './toDoList.png';
 import cvBuilder from './cvBuilder.png';
 import webNymph from './webnymph.png';
-import rc from './rc.png';
-import picturesque from './picturesque.png';
 import bloggy from './bloggy.png';
+import picker from './picker.png';
 
 import dedsec0 from './dedsec5.jpg'
 import dedsec4 from './anonymous-dedsec-unscreen.gif'
@@ -79,9 +78,8 @@ export {
   toDoList,
   cvBuilder,
   webNymph,
-  rc,
-  picturesque,
   bloggy,
+  picker,
   next,
   postgres,
   dedsec0,

@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import {
     backend,
     web,
@@ -18,9 +19,8 @@ import {
     toDoList,
     cvBuilder,
     webNymph,
-    rc,
-    picturesque,
     bloggy,
+    picker,
     next,
     postgres,
     go,
@@ -190,6 +190,39 @@ import {
   
   const projects = [
     {
+      name: "Picker",
+      description: `Picker is a fast, secure, and developer-friendly CDN (Content Delivery Network) designed to simplify media storage and retrieval. Picker enables developers to store and access assets like images, SVGs, and icons effortlessly. Whether you need to offload image storage from your app or reduce database size, Picker provides a streamlined solution with quick access times and scalable storage, backed by reliable cloud infrastructure.`,
+      tags: [
+        {
+          name: 'ReactJS',
+          color: "text-[#61DBFB]"
+        },
+        {
+          name: 'Express',
+          color: "text-white"
+        },
+        {
+          name: 'AWS',
+          color: "text-orange-400"
+        },
+        {
+          name: 'Redis',
+          color: "text-red-500"
+        },
+        {
+          name: "PostgreSQL",
+          color: "blue-text-gradient"
+        },
+        {
+          name: "Prisma",
+          color: "green-text-gradient"
+        },
+      ],
+      image: picker,
+      source_code_link: "https://github.com/piglitch/picker",
+      online_app_link: "https://www.pickercdn.com/",
+    },
+    {
       name: "Bloggy",
       description: `This blog app is built with cutting-edge technologies to ensure a smooth and secure experience. T3 Stack (TypeScript, Next.js, Drizzle): This powerful combination provides a robust foundation for the application, delivering optimal speed and efficiency.
       NextAuth.js: Securely manage user logins and protect user data with this robust authentication library. PostgreSQL with Drizzle ORM: Leverage the power of PostgreSQL for data storage and utilize Drizzle ORM for seamless interaction with the database.
@@ -241,56 +274,6 @@ import {
       image: webNymph,
       source_code_link: "https://github.com/piglitch/shopping-cart",
       online_app_link: "https://web-nymph.vercel.app/",
-    },
-    {
-      name: "Readerscult",
-      description: `Readers' Cult is a comprehensive library app designed for efficient book management. Leveraging Express.js and MongoDB, it offers CRUD (Create, Read, Update, Delete) functionalities for books, authors, and genres. The backend employs Express.js for routing and middleware management, while MongoDB facilitates data storage. The frontend is elegantly rendered using templating engines, ensuring a seamless user experience.`,
-      tags: [
-        {
-          name: 'Express',
-          color: 'green-text-gradient',
-        },
-        {
-          name: 'Bootstrap',
-          color: 'pink-text-gradient'
-        },
-        {
-          name: 'MongoDB',
-          color: 'green-text-gradient'
-        },
-        {
-          name: 'Pug',
-          color: 'blue-text-gradient'
-        },
-      ],
-      image: rc,
-      source_code_link: "https://github.com/piglitch/readerscult",
-      online_app_link: "https://readerscult.up.railway.app/",
-    },
-    {
-      name: "Picturesque",
-      description: `This sleek app, powered by Express.js and MongoDB, offers intuitive CRUD functionalities for pictures and albums. Express.js handles backend routing and middleware, while MongoDB ensures efficient data storage. The frontend is elegantly designed for a smooth user experience.`,
-      tags: [
-        {
-          name: 'Express',
-          color: 'green-text-gradient',
-        },
-        {
-          name: 'Bootstrap',
-          color: 'pink-text-gradient'
-        },
-        {
-          name: 'MongoDB',
-          color: 'green-text-gradient'
-        },
-        {
-          name: 'Pug',
-          color: 'blue-text-gradient'
-        },
-      ],
-      image: picturesque,
-      source_code_link: "https://github.com/piglitch/inventory-app",
-      online_app_link: "https://picturesque.up.railway.app/catalog",
     },   
     {
       name: "Cv Easy",
