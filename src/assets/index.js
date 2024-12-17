@@ -30,6 +30,7 @@ import redis from './tech/redis.svg';
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import Cognizant from "./company/Logo_Cognizant.png";
+import Credence from "./company/credencedata_logo.jpg";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -72,6 +73,7 @@ export {
   meta,
   shopify,
   Cognizant,
+  Credence,
   tesla,
   carrent,
   rickandmortz,

@@ -1,4 +1,4 @@
-import { color } from "framer-motion";
+// import { color } from "framer-motion";
 import {
     backend,
     web,
@@ -14,6 +14,7 @@ import {
     mongodb,
     git,
     Cognizant,
+    Credence,
     carrent,
     rickandmortz,
     toDoList,
@@ -173,7 +174,7 @@ import {
     {
       title: "Web Developer",
       company_name: "Credence",
-      icon: Cognizant,
+      icon: Credence,
       iconBg: "black",
       date: "Jun 2024 - Aug 2024",
       points: [
